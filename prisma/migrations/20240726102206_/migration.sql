@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE "Transaction" ADD COLUMN     "date_issued" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP;
